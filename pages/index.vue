@@ -45,23 +45,16 @@
           <span> Github </span>
           <icon name="mdi:github" class="h-4 w-4" />
         </a>
-        <a
-          href="https://sauravtomar.notion.site/ETHIndia-2023-7542c6ff5ec240f3a0e072dbd415ad31?pvs=4"
-          target="_blank"
-          class="h-12 flex items-center space-x-2 px-4 border-r text-xs font-medium bg-white text-slate-700"
-        >
-          <span> View Idea Doc </span>
-          <icon name="mdi:LightbulbOnOutline" class="h-4 w-4" />
-        </a>
+        
       </div>
     </div>
     <app-form-preview :data="data" />
     <a
-      href="https://twitter.com/fayazara"
+      href="https://sauravtomar.notion.site/ETHIndia-2023-7542c6ff5ec240f3a0e072dbd415ad31?pvs=4"
       target="_blank"
       class="absolute bottom-0 right-0 bg-white rounded-tl-lg shadow px-4 py-1 font-medium text-sm text-gray-500"
     >
-      
+      View Idea Doc / Contribute 
     </a>
   </div>
 </template>
@@ -86,23 +79,23 @@ const data = ref({
 
 const prefillDemoData = () => {
   data.value = {
-    n: "John Snow",
-    d: "I’m John Snow, the king in the north. I know Nothing.",
+    n: "Saurav Tomar",
+    d: "Building web3 CRM",
     i: "https://i.insider.com/56743fad72f2c12a008b6cc0",
     f: "https://www.facebook.com/john_snow",
-    t: "https://twitter.com/john_snow",
-    ig: "https://www.instagram.com/john_snow",
-    e: "mail@john_snow.cc",
-    gh: "https://github.com/john_snow",
-    tg: "https://t.me/john_snow",
+    t: "https://twitter.com/aimlbigdata",
+    ig: "https://www.instagram.com/s",
+    e: "founders@xagi.in",
+    gh: "https://github.com/sauravtom",
+    tg: "https://t.me/stomatrix",
     w: "+918888888888",
     y: "https://youtube.com/@john_snow",
-    l: "https://linkedin.com/john_snow",
+    l: "https://www.linkedin.com/in/saurav-tomar-863796238/",
     ls: [
       {
         l: "My Website",
         i: "ph:globe-duotone",
-        u: "https://example.com",
+        u: "https://xagi.in",
       },
       {
         l: "Amazon wishlist",
