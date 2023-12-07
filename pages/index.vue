@@ -45,6 +45,14 @@
           <span> Github </span>
           <icon name="mdi:github" class="h-4 w-4" />
         </a>
+        <a
+          href="https://sauravtomar.notion.site/ETHIndia-2023-7542c6ff5ec240f3a0e072dbd415ad31?pvs=4"
+          target="_blank"
+          class="h-12 flex items-center space-x-2 px-4 border-r text-xs font-medium bg-white text-slate-700"
+        >
+          <span> View Idea Doc </span>
+          <icon name="mdi:LightbulbOnOutline" class="h-4 w-4" />
+        </a>
       </div>
     </div>
     <app-form-preview :data="data" />
